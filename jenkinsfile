@@ -1,0 +1,23 @@
+node {
+    stage('Source CheckOut') {
+        git 'https://github.com/FeynmanFan/JenkinsGroovy.git'
+    }
+    stage('Build the Application') {
+        try {
+            echo 'Building.......'
+            sh 'dotnet --version'
+            sh 'dotnet build ConsoleApp1'
+            echo 'Building New Feature'
+        } catch(ex) {
+            echo "Something went wrong"
+        } finally {
+            echo "Do Cleanup"
+        }
+    }
+}
+
+/*
+sudo rpm -Uvh https://packages.microsoft.com/config/centos/7/packages-microsoft-prod.rpm
+sudo yum install dotnet-sdk-6.0
+dotnet --version
+*/
