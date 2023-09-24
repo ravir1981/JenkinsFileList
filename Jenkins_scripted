@@ -1,0 +1,50 @@
+node{
+    def mavenHome = tool name: "maven"
+    stage('1.CloneCode'){
+    //Jenkins running on a linux server
+    //sh "git clone https://github.com/chinnytech/Another_one.git"
+    git "https://github.com/chinnytech/Another_one.git"
+    }
+    stage('2.mvnBuild'){
+        sh "${mavenHome}/bin/mvn clean package"
+    }
+    stage('3.CodeQuality'){
+        sh "${mavenHome}/bin/mvn sonar:sonar"
+        //edit pom.xml propertiesTAG with SonarQube server details
+    }
+    stage('4.UploadArtifacts'){
+        sh "${mavenHome}/bin/mvn deploy"
+        //edit pom.xml distribution mgt tag with repo details
+        //edit settings.xml with nexus user login credentials
+    }
+    stage('5.Deploy_to_UAT'){
+        //use deplot-to-container plugin via pipeline syntax
+        deploy adapters: [tomcat9(credentialsId: 'Tomcat', path: '', url: 'http://3.15.27.116:8107/')], contextPath: 'bliss', war: 'target/*war'
+        //Deploying[var/lib/jenkins/workspace/Lovelymepipeline/target/*.war]
+    }
+    stage('6.Manual Approval'){
+        sh "echo 'Please review the application performance' "
+        timeout(600) {
+        input 'Application is ready for deployment. Please review and approve'
+      }
+    }
+    stage('7.Deploy_to_Prod'){
+        sh "echo 'Deploy Applicatio to the customer/Production' "
+        deploy adapters: [tomcat9(credentialsId: 'Tomcat', path: '', url: 'http://3.15.27.116:8107/')], contextPath: 'bliss', war: 'target/*war'
+    }
+    stage('8.APM'){
+        sh "echo 'Monitoring , Observation and Alerting' "
+        sh "echo 'Application Performance Monitoring in progress' "
+    }
+    stage('9.emailNotification'){
+        sh "echo 'Notify the team for unusual occurences' "
+        sh "echo 'Notify the team if the applications are down' "
+        sh "echo 'Notify the team if the latency is higher than expected' "
+        emailext body: '''Hi Team,
+
+        The Build and Deployment for Chinny app follows
+
+        Regards,
+        Chinny Tech''', recipientProviders: [buildUser(), contributor(), developers(), requestor()], subject: 'Build and Deployment Status', to: 'chinnyinvest@gmail.com'
+    }
+}
