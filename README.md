@@ -3,6 +3,11 @@ List of Jenkinsfile and it's project
 
 https://github.com/ravir1981/spring-boot-app
 
+## Darinpope Mentor Repo
+https://www.youtube.com/watch?v=Wj-weFEsTb0
+https://github.com/darinpope/github-api-global-lib
+https://github.com/darinpope?tab=repositories&q=github&type=&language=&sort=
+
 ## Jenkin_File_Scripted_chinnytech
 https://github.com/chinnytech/Jenkins_Pipeline_Scripted/tree/main
 https://github.com/chinnytech/Another_one/blob/master/Jenkinsfile_March2023
