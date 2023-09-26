@@ -3,6 +3,9 @@ List of Jenkinsfile and it's project
 
 https://github.com/ravir1981/spring-boot-app
 
+## CICD Project
+https://www.youtube.com/watch?v=vFvjTFtlb84
+
 ## Groovy Tutorial
 https://www.youtube.com/watch?v=iJ817Z-DU5k&list=PLhW3qG5bs-L8T6v6DgsZo93DgYDmOF9u4&index=9
 https://www.youtube.com/watch?v=4vMyswKt6YQ&list=PLhW3qG5bs-L8T6v6DgsZo93DgYDmOF9u4
