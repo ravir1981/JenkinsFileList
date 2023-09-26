@@ -17,6 +17,9 @@ https://www.youtube.com/watch?v=7Bz7qodSTUo
 https://www.youtube.com/watch?v=BLQ0PDjgN8w&list=PLdpzxOOAlwvJDIAQZtMjUUbiVUDfGaCIX&index=5
 https://www.youtube.com/watch?v=zZfhAXfBvVA&list=PLdpzxOOAlwvJDIAQZtMjUUbiVUDfGaCIX
 
+## Jenkins Tutorial for Beginners | Complete Crash Course with Git, Docker, Maven, GitHub & more (GOOD)
+https://www.youtube.com/watch?v=OXP8YBPBdgw
+https://www.youtube.com/playlist?list=PL_RrEj88onS8hEcx02tEBIJydd96OOzjh
 
 ## How to read Properties file from Jenkins pipeline | IndiaBees | Pipeline | Scripted | Tamil
 https://www.youtube.com/watch?v=7zfZniElF28&list=PLY6JYDtDNYLLdkZqfPYuaKVQnFRT3WqPs
