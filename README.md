@@ -6,6 +6,20 @@ https://github.com/ravir1981/spring-boot-app
 ## Shared Library in Tamil
 https://www.youtube.com/watch?v=w-QvhSJkkI0&list=PLMajL6JMRh6RCpw0WYjedhxXP9PSyl-NL&index=29
 
+## Building Docker Using Cloudbees Jenkins Shared Library and Template
+https://www.youtube.com/watch?v=7Bz7qodSTUo
+
+## JENKINS SHARED LIBRARIES TUTORIAL | WHAT IS SHARED LIBRARY IN JENKINS| DEMO INCLUDED
+https://www.youtube.com/watch?v=BLQ0PDjgN8w&list=PLdpzxOOAlwvJDIAQZtMjUUbiVUDfGaCIX&index=5
+https://www.youtube.com/watch?v=zZfhAXfBvVA&list=PLdpzxOOAlwvJDIAQZtMjUUbiVUDfGaCIX
+
+
+## How to read Properties file from Jenkins pipeline | IndiaBees | Pipeline | Scripted | Tamil
+https://www.youtube.com/watch?v=7zfZniElF28&list=PLY6JYDtDNYLLdkZqfPYuaKVQnFRT3WqPs
+
+## Jenkins in Tamil 35 How to use resource files shared library | Jenkins for Beginners with Eng Sub
+https://www.youtube.com/watch?v=WbOfzveyrso
+
 ## Pipeline tutorial
 https://www.youtube.com/watch?v=W47Fcq2qa4g&list=PLH1ul2iNXl7txKuhhDMKenYOThDww6x8S&index=2
 
