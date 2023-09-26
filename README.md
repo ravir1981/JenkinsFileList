@@ -3,6 +3,10 @@ List of Jenkinsfile and it's project
 
 https://github.com/ravir1981/spring-boot-app
 
+## Groovy Tutorial
+https://www.youtube.com/watch?v=iJ817Z-DU5k&list=PLhW3qG5bs-L8T6v6DgsZo93DgYDmOF9u4&index=9
+https://www.youtube.com/watch?v=4vMyswKt6YQ&list=PLhW3qG5bs-L8T6v6DgsZo93DgYDmOF9u4
+
 ## Shared Library in Tamil
 https://www.youtube.com/watch?v=w-QvhSJkkI0&list=PLMajL6JMRh6RCpw0WYjedhxXP9PSyl-NL&index=29
 
@@ -16,6 +20,9 @@ https://www.youtube.com/watch?v=zZfhAXfBvVA&list=PLdpzxOOAlwvJDIAQZtMjUUbiVUDfGa
 
 ## How to read Properties file from Jenkins pipeline | IndiaBees | Pipeline | Scripted | Tamil
 https://www.youtube.com/watch?v=7zfZniElF28&list=PLY6JYDtDNYLLdkZqfPYuaKVQnFRT3WqPs
+
+## Jenkins - JFrog, Maven, Sonarqube
+https://www.youtube.com/playlist?list=PL8WTXLSrtyWpgy4ZvhkVmc9uq5dU8ao08
 
 ## Jenkins in Tamil 35 How to use resource files shared library | Jenkins for Beginners with Eng Sub
 https://www.youtube.com/watch?v=WbOfzveyrso
